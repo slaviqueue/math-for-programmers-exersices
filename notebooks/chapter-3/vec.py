@@ -32,3 +32,9 @@ def to_cartesian(rho, phi):
     x = rho * cos(phi)
     y = rho * sin(phi)
     return (x, y)
+
+
+def cross(u, v):
+    ux, uy, uz = u
+    vx, vy, vz = v
+    return (uy*vz - uz*vy, uz*vx - ux*vz, ux*vy - uy*vx)
