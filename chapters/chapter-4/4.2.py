@@ -14,6 +14,6 @@ from helpers import *
 
 
 tris = load_triangles()
-translated = polygon_map(translate_by((1, 1, 1)), tris)
+translated = polygon_map(translate_by((0, 0, -20)), tris)
 
 draw_model(translated)
