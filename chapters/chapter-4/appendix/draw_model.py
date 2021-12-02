@@ -4,9 +4,9 @@ from OpenGL.GL import *
 from OpenGL.GLU import *
 import matplotlib.cm
 from math import *
-import camera as camera
-from transforms import *
-from vectors import *
+import appendix.camera as camera
+from appendix.transforms import *
+from appendix.vectors import *
 
 
 def normal(face):

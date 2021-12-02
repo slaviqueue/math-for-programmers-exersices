@@ -1,5 +1,5 @@
-from teapot import load_triangles
-from draw_model import draw_model
+from appendix.teapot import load_triangles
+from appendix.draw_model import draw_model
 
 ####################################################################
 # this code takes a snapshot to reproduce the exact figure

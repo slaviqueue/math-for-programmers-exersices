@@ -4,7 +4,7 @@ from OpenGL.GL import *
 from OpenGL.GLU import *
 import matplotlib.cm
 from math import *
-from vectors import *
+from appendix.vectors import *
 
 
 def normal(face):
